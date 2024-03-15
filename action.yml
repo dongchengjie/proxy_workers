@@ -1,0 +1,24 @@
+name: subs-puller
+author: dongchengjie
+description: A github action designed for pulling subscribe files.
+
+inputs:
+  repository:
+    description: 'Github repository(should contain both owner and repo)'
+    required: true
+
+  token:
+    description: 'Github token(requires access to workflows)'
+    required: true
+
+  directory:
+    description: 'Where files are saved'
+    required: false
+
+runs:
+  using: docker
+  image: Dockerfile
+
+branding:
+  color: blue
+  icon: send

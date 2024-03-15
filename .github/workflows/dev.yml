@@ -1,0 +1,16 @@
+name: Workflow Dev
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete-workflow-runs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch subscribe files
+        uses: dongchengjie/subs-puller@main
+        with:
+          repository: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: http://raw.githubusercontent.com/dongchengjie/subs-puller/master/example.yaml
