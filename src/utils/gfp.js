@@ -1,5 +1,5 @@
 import { getOctokit } from '@actions/github';
-import { logger } from './logger.js';
+import logger from './logger.js';
 /**
  * 推送文件到Github仓库
  * @param {string} repository 仓库（包含owner和repo）

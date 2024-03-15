@@ -1,5 +1,0 @@
-{
-  "yaml.schemas": {
-    "src/utils/schema/subs-puller.json": "example.yaml"
-  }
-}

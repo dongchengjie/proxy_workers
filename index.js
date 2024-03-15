@@ -2,8 +2,8 @@ import dotenv from 'dotenv';
 import { getInput } from '@actions/core';
 import yudou from './src/core/workers/yudou.js';
 import fromzero from './src/core/workers/fromzero.js';
-import logger from './src/utils/logger.js';
 import { push } from './src/utils/gfp.js';
+import logger from './src/utils/logger.js';
 
 const getActionInput = names => {
   dotenv.config();
@@ -15,7 +15,7 @@ const getActionInput = names => {
   const [repository, branch, token, directory] = getActionInput(['repository', 'branch', 'token', 'directory']);
 
   let arr = [yudou, fromzero];
-  const contents = await Promise.all(
+  let contents = await Promise.all(
     arr.map(
       item =>
         new Promise(async (resolve, reject) => {
@@ -28,8 +28,8 @@ const getActionInput = names => {
     )
   );
   contents = contents.filter(Boolean);
-  contents.map(info => {
-    return { path: info.file, content: info.content };
+  const files = contents.map(info => {
+    return { path: (directory ? directory : 'subs/') + info.file, content: info.content };
   });
-  await push(files, repository ? directory : 'subs/', branch, token);
+  await push(files, repository, branch, token);
 })();
