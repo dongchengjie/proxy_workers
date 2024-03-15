@@ -13,6 +13,7 @@ import logger from './logger.js';
  */
 export const push = async (files, repository, branch, token, message, committer, committerEmail) => {
   const [owner, repo] = repository.split('/');
+  repository = repository || process.env['GITHUB_REPOSITORY'];
   branch = branch || process.env['GITHUB_REF_NAME'] || 'main';
   const octokit = getOctokit(token);
   // 推送文件

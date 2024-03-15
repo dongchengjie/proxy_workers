@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Fetch subscribe files
+      - name: Do Work
         uses: dongchengjie/proxy_workers@main
         with:
-          repository: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
           directory: subs/

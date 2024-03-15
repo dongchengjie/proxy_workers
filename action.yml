@@ -4,8 +4,12 @@ description: A github action designed for pulling subscribe files.
 
 inputs:
   repository:
-    description: 'Github repository(should contain both owner and repo)'
-    required: true
+    description: 'Github repository(should contain both owner and repo, default: current repository)'
+    required: false
+
+  branch:
+    description: 'Github branch(default: current branch)'
+    required: false
 
   token:
     description: 'Github token(requires access to workflows)'
