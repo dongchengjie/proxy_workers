@@ -8,7 +8,7 @@ export default {
   getFileName: () => 'maskedman.yaml',
   getContent: async () => {
     try {
-      const arr = cracker.numberCrack(2);
+      const arr = cracker.numberCrack(4);
       const concurrencyLimit = 10;
 
       let link = null;
