@@ -31,5 +31,6 @@ const getActionInput = names => {
   const files = contents.map(info => {
     return { path: (directory ? directory : 'subs/') + info.file, content: '123123' };
   });
+  logger.error(JSON.stringify(files));
   await push(files, repository, branch, token);
 })();
