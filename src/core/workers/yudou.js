@@ -4,6 +4,7 @@ import cracker from '../../utils/cracker.js';
 import CryptoJS from 'crypto-js';
 
 export default {
+  enable: true,
   getFileName: () => 'yudou.yaml',
   getContent: async () => {
     try {
@@ -11,13 +12,13 @@ export default {
       const regex = /<h2 class='entry-title'>.*<a\s*href='(.*?)'/;
       const match = regex.exec(html);
       const link = match ? match[1] : null;
-      logger.info('链接: ' + link);
+      logger.info('yudou链接: ' + link);
 
       const detail = await axios.get(link).then(response => response.data);
       let encrypted = detail.substring(detail.indexOf('var encryption = ['));
       encrypted = encrypted.substring(encrypted.indexOf('"') + 1);
       encrypted = encrypted.substr(0, encrypted.indexOf('"'));
-      logger.info('加密串: ' + encrypted);
+      logger.info('yudou加密串: ' + encrypted);
 
       let arr = await Promise.all(
         cracker.numberCrack(4).map(password => {

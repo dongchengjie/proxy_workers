@@ -12,9 +12,9 @@ import logger from './logger.js';
  * @param {string} committerEmail 提交者邮箱
  */
 export const push = async (files, repository, branch, token, message, committer, committerEmail) => {
-  const [owner, repo] = repository.split('/');
   repository = repository || process.env['GITHUB_REPOSITORY'];
   branch = branch || process.env['GITHUB_REF_NAME'] || 'main';
+  const [owner, repo] = repository.split('/');
   const octokit = getOctokit(token);
   // 推送文件
   return await commitFiles(files, octokit, owner, repo, branch, message);
@@ -23,16 +23,15 @@ export const push = async (files, repository, branch, token, message, committer,
 const commitFiles = async (files, octokit, owner, repo, branch, message, committer, committerEmail) => {
   try {
     // 获取当前分支引用
-    const branchRef = await octokit.rest.git.getRef({ owner, repo, ref: `heads/${branch}` });
+    const branchRefQuery = { owner, repo, ref: `heads/${branch}` };
+    logger.info(`branch ref query: ${JSON.stringify(branchRefQuery)}`);
+    const branchRef = await octokit.rest.git.getRef(branchRefQuery);
     logger.info(`Current branch ref: ${branchRef.data.object.sha}.`);
 
     // 获取当前分支树引用
-    const branchTree = await octokit.rest.git.getTree({
-      owner,
-      repo,
-      tree_sha: branchRef.data.object.sha,
-      recursive: true
-    });
+    const branchTreeQuery = { owner, repo, tree_sha: branchRef.data.object.sha, recursive: true };
+    logger.info(`branch tree ref query: ${JSON.stringify(branchTreeQuery)}`);
+    const branchTree = await octokit.rest.git.getTree(branchTreeQuery);
     logger.info(`Current tree ref: ${branchTree.data.sha}.`);
 
     // 创建一个新的树对象，包含上传的多个文件
@@ -73,6 +72,6 @@ const commitFiles = async (files, octokit, owner, repo, branch, message, committ
     });
     logger.info('Committing Files success.');
   } catch (error) {
-    logger.error('Error committing files:', error);
+    logger.error('Error committing files:', error.message);
   }
 };

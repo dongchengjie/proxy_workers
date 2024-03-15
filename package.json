@@ -13,7 +13,9 @@
     "axios": "^1.6.7",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.5",
-    "qs": "^6.12.0"
+    "node-fetch": "^3.3.2",
+    "qs": "^6.12.0",
+    "unirest": "^0.6.0"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9"
