@@ -29,10 +29,7 @@ const getActionInput = names => {
   );
   contents = contents.filter(Boolean);
   const files = contents.map(info => {
-    return { path: (directory ? directory : 'subs/') + info.file, content: info.content };
+    return { path: (directory ? directory : 'subs/') + info.file, content: '123123' };
   });
-  logger.info(JSON.stringify(files));
-  logger.info(repository);
-  logger.info(branch);
   await push(files, repository, branch, token);
 })();
