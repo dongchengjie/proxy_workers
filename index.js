@@ -16,7 +16,7 @@ const getActionInput = names => {
 
   // worker列表
   let arr = [yudou, fromzero, maskedman];
-  let whiteList = [maskedman];
+  let whiteList = [];
 
   // 获取content
   let contents = await Promise.all(
