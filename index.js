@@ -3,6 +3,7 @@ import { getInput } from '@actions/core';
 import yudou from './src/core/workers/yudou.js';
 import fromzero from './src/core/workers/fromzero.js';
 import maskedman from './src/core/workers/maskedman.js';
+import getafreenode from './src/core/workers/getafreenode.js';
 import { push } from './src/utils/gfp.js';
 
 const getActionInput = names => {
@@ -15,7 +16,7 @@ const getActionInput = names => {
   const [repository, branch, token, directory] = getActionInput(['repository', 'branch', 'token', 'directory']);
 
   // worker列表
-  let arr = [yudou, fromzero, maskedman];
+  let arr = [yudou, fromzero, maskedman, getafreenode];
   let whiteList = [];
 
   // 获取content
