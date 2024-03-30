@@ -14,7 +14,7 @@ export default {
       let link = null;
       for (let i = 0; i < arr.length; i += concurrencyLimit) {
         const tasks = arr.slice(i, i + concurrencyLimit).map(async password => {
-          return await new Promise(async (resolve, reject) => {
+          return await new Promise(async resolve => {
             try {
               logger.info('maskedman test password: ' + password);
               const regex = /(https?:\/\/.*?\.yaml)(?=\")/gm;
@@ -24,7 +24,7 @@ export default {
               console.log('maskedman链接: ' + link);
               resolve(link);
             } catch (err) {
-              reject(null);
+              resolve(null);
             }
           });
         });
