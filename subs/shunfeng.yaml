@@ -1,4 +1,4 @@
-# 节点数量：327
+# 节点数量：334
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -408,6 +408,13 @@ proxies:
   - {"name":"Youtube顺丰资源++俄罗斯联邦2","type":"vless","server":"185.174.138.182","port":8443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin18.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"xin18.ylks.link"}}}
   - {"name":"Youtube顺丰资源++美国127","type":"vless","server":"104.24.200.65","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut18.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"aut18.ylks.link"}}}
   - {"name":"Youtube顺丰资源++美国128","type":"vless","server":"172.64.98.212","port":443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin18.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"xin18.ylks.link"}}}
+  - {"name":"Youtube顺丰资源++哈萨克斯坦5","type":"vless","server":"31.43.179.56","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"18k.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"18k.ylks.link"}}}
+  - {"name":"Youtube顺丰资源  US00113","type":"vmess","server":"kkyx.yydsii.com","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
+  - {"name":"Youtube顺丰资源++US108","type":"vless","server":"168.100.6.89","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++SC105","type":"vless","server":"45.133.247.48","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++美国216","type":"vless","server":"167.68.11.141","port":8443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut18.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"aut18.ylks.link"}}}
+  - {"name":"Youtube顺丰资源++英国3","type":"vless","server":"164.38.155.2","port":8443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin18.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"xin18.ylks.link"}}}
+  - {"name":"Youtube顺丰资源++美国336","type":"vless","server":"104.254.140.193","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"18k.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"18k.ylks.link"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -741,6 +748,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1074,6 +1088,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -1407,6 +1428,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1739,6 +1767,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -2071,6 +2106,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2403,6 +2445,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2752,6 +2801,13 @@ proxy-groups:
       - Youtube顺丰资源++俄罗斯联邦2
       - Youtube顺丰资源++美国127
       - Youtube顺丰资源++美国128
+      - Youtube顺丰资源++哈萨克斯坦5
+      - Youtube顺丰资源  US00113
+      - Youtube顺丰资源++US108
+      - Youtube顺丰资源++SC105
+      - Youtube顺丰资源++美国216
+      - Youtube顺丰资源++英国3
+      - Youtube顺丰资源++美国336
 
 rules:
 # 本地/局域网地址
