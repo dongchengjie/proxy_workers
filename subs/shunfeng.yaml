@@ -1,4 +1,4 @@
-# 节点数量：371
+# 节点数量：380
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -93,7 +93,6 @@ proxies:
   - {"name":"Youtube顺丰资源++US339\r","type":"vless","server":"159.112.235.14","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"Youtube顺丰资源  US268","type":"vmess","server":"104.19.54.16","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
   - {"name":"Youtube顺丰资源++US27\r","type":"vless","server":"104.19.53.2","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源  US153","type":"vmess","server":"104.19.55.103","port":8880,"cipher":"auto","uuid":"ca245f69-b4c6-4201-b5fc-a9280e2d4fc3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
   - {"name":"Youtube顺丰资源++德国\r_1","type":"vless","server":"188.244.122.57","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"hk112.ylks.link"}}}
   - {"name":"Youtube顺丰资源  US246","type":"vmess","server":"104.19.54.224","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
   - {"name":"Youtube顺丰资源  US264","type":"vmess","server":"104.19.54.5","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
@@ -288,7 +287,7 @@ proxies:
   - {"name":"Youtube顺丰资源++美国\r_25","type":"vless","server":"japan.com","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp112.ylks01.eu.org","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"jp112.ylks01.eu.org"}}}
   - {"name":"Youtube顺丰资源++美国\r_26","type":"vless","server":"34.29.228.169","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"aut112.ylks.link"}}}
   - {"name":"Youtube顺丰资源  US152_1","type":"vmess","server":"104.19.57.29","port":80,"cipher":"auto","uuid":"c0453a16-67e9-4eab-bdc9-b9624ad6bd29","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"hkv6.xlb8.eu.org"}}}
-  - {"name":"Youtube顺丰资源++US72\r","type":"vless","server":"104.19.61.51","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++US72\r_1","type":"vless","server":"104.19.61.51","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Youtube顺丰资源++美国\r_27","type":"vless","server":"malaysia.com","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk111.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"hk111.ylks.link"}}}
   - {"name":"Youtube顺丰资源++韩国\r_7","type":"vless","server":"146.56.171.182","port":11659,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kk111.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"kk111.ylks.link"}}}
   - {"name":"Youtube顺丰资源++US67\r","type":"ss","server":"169.197.142.120","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
@@ -444,7 +443,7 @@ proxies:
   - {"name":"Youtube顺丰资源++US8\r","type":"vless","server":"104.17.23.11","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Youtube顺丰资源++罗马尼亚\r_18","type":"vless","server":"146.70.175.181","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp112.ylks01.eu.org","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"jp112.ylks01.eu.org"}}}
   - {"name":"Youtube顺丰资源++美国\r_42","type":"vless","server":"japan.com","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"hk112.ylks.link"}}}
-  - {"name":"Youtube顺丰资源++US151\r","type":"vless","server":"104.17.23.9","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++US151\r_1","type":"vless","server":"104.17.23.9","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Youtube顺丰资源++SC240\r","type":"vless","server":"154.197.121.178","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Youtube顺丰资源++US80\r_2","type":"vless","server":"4.255.56.138","port":443,"uuid":"38a2070d-a256-48f3-891b-c9b68b01c8f7","tls":true,"servername":"jd.wxgqlfx.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"jd.wxgqlfx.top"}}}
   - {"name":"Youtube顺丰资源++罗马尼亚\r_19","type":"vless","server":"146.70.175.100","port":443,"uuid":"01ab9337-f478-4765-9534-88f009f83ddb","tls":true,"servername":"aut112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"aut112.ylks.link"}}}
@@ -452,6 +451,16 @@ proxies:
   - {"name":"Youtube顺丰资源++加拿大\r_4","type":"vless","server":"20.151.142.151","port":8443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"xin112.ylks.link"}}}
   - {"name":"Youtube顺丰资源++韩国\r_17","type":"vless","server":"222.108.215.96","port":11180,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kk112.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"kk112.ylks.link"}}}
   - {"name":"Youtube顺丰资源++US111\r_2","type":"vless","server":"91.217.139.121","port":8443,"uuid":"38a2070d-a256-48f3-891b-c9b68b01c8f7","tls":true,"servername":"jd.wxgqlfx.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"jd.wxgqlfx.top"}}}
+  - {"name":"Youtube顺丰资源  US182","type":"vmess","server":"104.19.55.212","port":8880,"cipher":"auto","uuid":"ca245f69-b4c6-4201-b5fc-a9280e2d4fc3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
+  - {"name":"Youtube顺丰资源  US150","type":"vmess","server":"104.19.54.173","port":2052,"cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
+  - {"name":"Youtube顺丰资源++US22\r","type":"vless","server":"104.17.23.11","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++罗马尼亚\r_20","type":"vless","server":"146.70.175.106","port":443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xin111.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"xin111.ylks.link"}}}
+  - {"name":"Youtube顺丰资源++KR1206\r","type":"vless","server":"121.158.147.183","port":26516,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++US151\r_2","type":"vless","server":"89.116.180.130","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++US72\r_2","type":"vless","server":"104.16.145.161","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源  US263","type":"vmess","server":"104.19.55.50","port":8880,"cipher":"auto","uuid":"ca245f69-b4c6-4201-b5fc-a9280e2d4fc3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai2","headers":{"host":"hk2.wish.ml"}}}
+  - {"name":"Youtube顺丰资源++SG1073\r","type":"vless","server":"47.128.217.153","port":2086,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++美国\r_43","type":"vless","server":"34.41.252.92","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk111.ylks.link","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"hk111.ylks.link"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -470,7 +479,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -665,7 +673,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -821,7 +829,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -829,6 +837,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -847,7 +865,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -1042,7 +1059,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -1198,7 +1215,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -1206,6 +1223,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -1224,7 +1251,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -1419,7 +1445,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -1575,7 +1601,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -1583,6 +1609,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1600,7 +1636,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -1795,7 +1830,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -1951,7 +1986,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -1959,6 +1994,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1976,7 +2021,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -2171,7 +2215,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -2327,7 +2371,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -2335,6 +2379,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2352,7 +2406,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -2547,7 +2600,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -2703,7 +2756,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -2711,6 +2764,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2745,7 +2808,6 @@ proxy-groups:
       - "Youtube顺丰资源++US339\r"
       - Youtube顺丰资源  US268
       - "Youtube顺丰资源++US27\r"
-      - Youtube顺丰资源  US153
       - "Youtube顺丰资源++德国\r_1"
       - Youtube顺丰资源  US246
       - Youtube顺丰资源  US264
@@ -2940,7 +3002,7 @@ proxy-groups:
       - "Youtube顺丰资源++美国\r_25"
       - "Youtube顺丰资源++美国\r_26"
       - Youtube顺丰资源  US152_1
-      - "Youtube顺丰资源++US72\r"
+      - "Youtube顺丰资源++US72\r_1"
       - "Youtube顺丰资源++美国\r_27"
       - "Youtube顺丰资源++韩国\r_7"
       - "Youtube顺丰资源++US67\r"
@@ -3096,7 +3158,7 @@ proxy-groups:
       - "Youtube顺丰资源++US8\r"
       - "Youtube顺丰资源++罗马尼亚\r_18"
       - "Youtube顺丰资源++美国\r_42"
-      - "Youtube顺丰资源++US151\r"
+      - "Youtube顺丰资源++US151\r_1"
       - "Youtube顺丰资源++SC240\r"
       - "Youtube顺丰资源++US80\r_2"
       - "Youtube顺丰资源++罗马尼亚\r_19"
@@ -3104,6 +3166,16 @@ proxy-groups:
       - "Youtube顺丰资源++加拿大\r_4"
       - "Youtube顺丰资源++韩国\r_17"
       - "Youtube顺丰资源++US111\r_2"
+      - Youtube顺丰资源  US182
+      - Youtube顺丰资源  US150
+      - "Youtube顺丰资源++US22\r"
+      - "Youtube顺丰资源++罗马尼亚\r_20"
+      - "Youtube顺丰资源++KR1206\r"
+      - "Youtube顺丰资源++US151\r_2"
+      - "Youtube顺丰资源++US72\r_2"
+      - Youtube顺丰资源  US263
+      - "Youtube顺丰资源++SG1073\r"
+      - "Youtube顺丰资源++美国\r_43"
 
 rules:
 # 本地/局域网地址
