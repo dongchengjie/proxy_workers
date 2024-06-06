@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-06-06 19:47:01
+# 创建时间：2024-06-06 20:33:47
 # 使用模版：V2RaySE 默认模版
-# 节点数量：61
+# 节点数量：59
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,6 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"YouTube面具人哈乐_中国_61","type":"trojan","server":"jp-01.01-vip.top","port":31013,"udp":true,"password":"cbe701ae-58a2-4ad5-8e0c-397341b18146@jp-01.01-vip.top:31013?type=tcp&security=tls&sni=jp-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_1trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@jp-02.01-vip.top:31014&type=tcp&security=tls&sni=jp-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_2ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@4349ufu.54jvd5y6ojams-us02.my777999.top:33998#YouTube面具人哈乐_中国_3ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@7879va.xikv2dvn-3g5erg0-us01.my777999.top:33999#YouTube面具人哈乐_中国_4ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA==@206.237.31.203:16899#YouTube面具人哈乐_美国_5trojan://964f1207-6ed8-4615-9570-7f523576dbcd@jp-02.01-vip.top:31014&type=tcp&security=tls&sni=jp-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_6vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fNyIsImFkZCI6ImNoYW9qaTIuY2hhb3poaWpjLnh5eiIsInBvcnQiOjIwODIsImlkIjoiMGZmMmFmMWYtNDk5My00MWE4LTg0OWYtMDE2MWNmMzNiY2UyIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJob3N0IjoiZG55LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@mwd-mfzj777rc1.x7kp-hk02.my777999.top:35997#YouTube面具人哈乐_中国_8ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top:35998#YouTube面具人哈乐_中国_9ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5OTMwMWQ1NS1hNDFmLTQ5MTktOTg2Yi0xNDM1OTk2NTMzYWE=@deepf.hjkdsak2.com:20003#YouTube面具人哈乐_中国_10ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5OTMwMWQ1NS1hNDFmLTQ5MTktOTg2Yi0xNDM1OTk2NTMzYWE=@deepf.hjkdsak2.com:20003#YouTube面具人哈乐_中国_11ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@gfoq.b4-h5a6gq7.h3w-kr01.my777999.top:32999#YouTube面具人哈乐_中国_12trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@hk-02.01-vip.top:31002&type=tcp&security=tls&sni=hk-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_13trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@us-04.01-vip.top:31009&type=tcp&security=tls&sni=us-04.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_14ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@23.157.40.119:5601#YouTube面具人哈乐_美国_15ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@98899.xef9wvmj31-gc3qil6-jp02.my777999.top:38998#YouTube面具人哈乐_中国_16trojan://964f1207-6ed8-4615-9570-7f523576dbcd@us-04.01-vip.top:31009&type=tcp&security=tls&sni=us-04.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_17vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMTgiLCJhZGQiOiJjaGFvamkyLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMTkiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjAiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjEiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjIiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjMiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==trojan://964f1207-6ed8-4615-9570-7f523576dbcd@gb-01.01-vip.top:31016&type=tcp&security=tls&sni=gb-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_24vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjUiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImR5ZC5jaGFvemhpamMueHl6IiwicGF0aCI6Ij9lZD0yMDQ4IiwidGxzIjoiIn0=trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@gb-01.01-vip.top:31016&type=tcp&security=tls&sni=gb-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_26ss://bm9uZTowY2Y1MjAxNi1iYTk4LTMxOWQtZGU4Yy04NGRiZmFjOWNjY2M=@42.240.130.243:33237#YouTube面具人哈乐_中国_27vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMjgiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImJ4LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==ss://bm9uZTowY2Y1MjAxNi1iYTk4LTMxOWQtZGU4Yy04NGRiZmFjOWNjY2M=@42.240.130.243:33237#YouTube面具人哈乐_中国_29vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMzAiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRhZGx5LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fMzEiLCJhZGQiOiJjaGFvamkyLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImJ4LmNoYW96aGlqYy54eXoiLCJwYXRoIjoiP2VkPTIwNDgiLCJ0bHMiOiIifQ==trojan://964f1207-6ed8-4615-9570-7f523576dbcd@de-01.01-vip.top:31017&type=tcp&security=tls&sni=de-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_32trojan://964f1207-6ed8-4615-9570-7f523576dbcd@au-01.01-vip.top:31019&type=tcp&security=tls&sni=au-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_33ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2FlZmQ4OS0zMjg1LTQzNDctOTA4My02MjQ5NzExZjAyZTk=@fg5d.84bbo0t-olimkrx-kr02.my777999.top:32998#YouTube面具人哈乐_中国_34ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@23.157.40.119:5601#YouTube面具人哈乐_美国_35trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@de-01.01-vip.top:31017&type=tcp&security=tls&sni=de-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_36trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@au-01.01-vip.top:31019&type=tcp&security=tls&sni=au-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_37trojan://964f1207-6ed8-4615-9570-7f523576dbcd@ca-01.01-vip.top:31015&type=tcp&security=tls&sni=ca-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_38trojan://964f1207-6ed8-4615-9570-7f523576dbcd@us-02.01-vip.top:31007&type=tcp&security=tls&sni=us-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_39trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@in-01.01-vip.top:31018&type=tcp&security=tls&sni=in-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_40trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@ca-01.01-vip.top:31015&type=tcp&security=tls&sni=ca-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_41vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fNDIiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRueS5jaGFvemhpamMueHl6IiwicGF0aCI6Ij9lZD0yMDQ4IiwidGxzIjoiIn0=trojan://964f1207-6ed8-4615-9570-7f523576dbcd@in-01.01-vip.top:31018&type=tcp&security=tls&sni=in-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_43trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@us-01.01-vip.top:31006&type=tcp&security=tls&sni=us-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_44trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@sg-01.01-vip.top:31011&type=tcp&security=tls&sni=sg-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_45trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@us-03.01-vip.top:31008&type=tcp&security=tls&sni=us-03.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_46trojan://964f1207-6ed8-4615-9570-7f523576dbcd@sg-01.01-vip.top:31011&type=tcp&security=tls&sni=sg-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_47trojan://964f1207-6ed8-4615-9570-7f523576dbcd@us-01.01-vip.top:31006&type=tcp&security=tls&sni=us-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_48trojan://964f1207-6ed8-4615-9570-7f523576dbcd@us-03.01-vip.top:31008&type=tcp&security=tls&sni=us-03.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_49trojan://964f1207-6ed8-4615-9570-7f523576dbcd@hk-03.01-vip.top:31003&type=tcp&security=tls&sni=hk-03.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_50trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@hk-04.01-vip.top:31004&type=tcp&security=tls&sni=hk-04.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_51trojan://964f1207-6ed8-4615-9570-7f523576dbcd@hk-02.01-vip.top:31002&type=tcp&security=tls&sni=hk-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_52trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@sg-02.01-vip.top:31012&type=tcp&security=tls&sni=sg-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_53vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fNTQiLCJhZGQiOiJjaGFvamkyLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRkZy5jaGFvemhpamMueHl6IiwicGF0aCI6Ij9lZD0yMDQ4IiwidGxzIjoiIn0=trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@hk-01.01-vip.top:31001&type=tcp&security=tls&sni=hk-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_55vmess://eyJ2IjoiMiIsInBzIjoiWW91VHViZemdouWFt+S6uuWTiOS5kF/nvo7lm71fNTYiLCJhZGQiOiJjaGFvamkxLmNoYW96aGlqYy54eXoiLCJwb3J0IjoyMDgyLCJpZCI6IjBmZjJhZjFmLTQ5OTMtNDFhOC04NDlmLTAxNjFjZjMzYmNlMiIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6ImRkZy5jaGFvemhpamMueHl6IiwicGF0aCI6Ij9lZD0yMDQ4IiwidGxzIjoiIn0=trojan://964f1207-6ed8-4615-9570-7f523576dbcd@sg-02.01-vip.top:31012&type=tcp&security=tls&sni=sg-02.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_57trojan://964f1207-6ed8-4615-9570-7f523576dbcd@hk-01.01-vip.top:31001&type=tcp&security=tls&sni=hk-01.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_58trojan://964f1207-6ed8-4615-9570-7f523576dbcd@hk-04.01-vip.top:31004&type=tcp&security=tls&sni=hk-04.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_59trojan://cbe701ae-58a2-4ad5-8e0c-397341b18146@hk-03.01-vip.top:31003&type=tcp&security=tls&sni=hk-03.v4vip.top&allowInsecure=1#YouTube面具人哈乐_中国_60trojan://964f1207-6ed8-4615-9570-7f523576dbcd","sni":"jp-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_中国_1","type":"trojan","server":"jp-01.01-vip.top","port":31013,"udp":true,"password":"cbe701ae-58a2-4ad5-8e0c-397341b18146","sni":"jp-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_中国_2","type":"trojan","server":"jp-02.01-vip.top","port":31014,"udp":true,"password":"cbe701ae-58a2-4ad5-8e0c-397341b18146","sni":"jp-02.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_中国_3","type":"ss","server":"4349ufu.54jvd5y6ojams-us02.my777999.top","port":33998,"password":"33aefd89-3285-4347-9083-6249711f02e9","cipher":"chacha20-ietf-poly1305"}
@@ -111,9 +112,7 @@ proxies:
   - {"name":"YouTube面具人哈乐_中国_24","type":"trojan","server":"gb-01.01-vip.top","port":31016,"udp":true,"password":"964f1207-6ed8-4615-9570-7f523576dbcd","sni":"gb-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_美国_25","type":"vmess","server":"chaoji1.chaozhijc.xyz","port":2082,"cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"?ed=2048","headers":{"host":"dyd.chaozhijc.xyz"}}}
   - {"name":"YouTube面具人哈乐_中国_26","type":"trojan","server":"gb-01.01-vip.top","port":31016,"udp":true,"password":"cbe701ae-58a2-4ad5-8e0c-397341b18146","sni":"gb-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_27","type":"ss","server":"42.240.130.243","port":33237,"password":"0cf52016-ba98-319d-de8c-84dbfac9cccc","cipher":"none"}
   - {"name":"YouTube面具人哈乐_美国_28","type":"vmess","server":"chaoji1.chaozhijc.xyz","port":2082,"cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"?ed=2048","headers":{"host":"bx.chaozhijc.xyz"}}}
-  - {"name":"YouTube面具人哈乐_中国_29","type":"ss","server":"42.240.130.243","port":33237,"password":"0cf52016-ba98-319d-de8c-84dbfac9cccc","cipher":"none"}
   - {"name":"YouTube面具人哈乐_美国_30","type":"vmess","server":"chaoji1.chaozhijc.xyz","port":2082,"cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"?ed=2048","headers":{"host":"dadly.chaozhijc.xyz"}}}
   - {"name":"YouTube面具人哈乐_美国_31","type":"vmess","server":"chaoji2.chaozhijc.xyz","port":2082,"cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"?ed=2048","headers":{"host":"bx.chaozhijc.xyz"}}}
   - {"name":"YouTube面具人哈乐_中国_32","type":"trojan","server":"de-01.01-vip.top","port":31017,"udp":true,"password":"964f1207-6ed8-4615-9570-7f523576dbcd","sni":"de-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
@@ -145,13 +144,13 @@ proxies:
   - {"name":"YouTube面具人哈乐_中国_58","type":"trojan","server":"hk-01.01-vip.top","port":31001,"udp":true,"password":"964f1207-6ed8-4615-9570-7f523576dbcd","sni":"hk-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_中国_59","type":"trojan","server":"hk-04.01-vip.top","port":31004,"udp":true,"password":"964f1207-6ed8-4615-9570-7f523576dbcd","sni":"hk-04.v4vip.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"YouTube面具人哈乐_中国_60","type":"trojan","server":"hk-03.01-vip.top","port":31003,"udp":true,"password":"cbe701ae-58a2-4ad5-8e0c-397341b18146","sni":"hk-03.v4vip.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_61","type":"trojan","server":"jp-01.01-vip.top","port":31013,"udp":true,"password":"964f1207-6ed8-4615-9570-7f523576dbcd","sni":"jp-01.v4vip.top","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -178,9 +177,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -212,13 +209,13 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -245,9 +242,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -279,13 +274,13 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -312,9 +307,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -346,12 +339,12 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -378,9 +371,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -412,12 +403,12 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -444,9 +435,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -478,12 +467,12 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -510,9 +499,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -544,7 +531,6 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -567,6 +553,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - YouTube面具人哈乐_中国_61
       - YouTube面具人哈乐_中国_1
       - YouTube面具人哈乐_中国_2
       - YouTube面具人哈乐_中国_3
@@ -593,9 +580,7 @@ proxy-groups:
       - YouTube面具人哈乐_中国_24
       - YouTube面具人哈乐_美国_25
       - YouTube面具人哈乐_中国_26
-      - YouTube面具人哈乐_中国_27
       - YouTube面具人哈乐_美国_28
-      - YouTube面具人哈乐_中国_29
       - YouTube面具人哈乐_美国_30
       - YouTube面具人哈乐_美国_31
       - YouTube面具人哈乐_中国_32
@@ -627,7 +612,6 @@ proxy-groups:
       - YouTube面具人哈乐_中国_58
       - YouTube面具人哈乐_中国_59
       - YouTube面具人哈乐_中国_60
-      - YouTube面具人哈乐_中国_61
 
 rules:
 # 本地/局域网地址
