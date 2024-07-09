@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-08 20:21:17
+# 创建时间：2024-07-09 21:07:05
 # 使用模版：V2RaySE 默认模版
-# 节点数量：47
+# 节点数量：17
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,368 +85,158 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"YouTube面具人哈乐_日本_1","type":"trojan","server":"jp03.156786.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"jp03.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_比利时_2","type":"trojan","server":"2sg002ff0f283d-2433-bbbe-4d7a-59990b8b8b74.233235.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg002ff0f283d-2433-bbbe-4d7a-59990b8b8b74.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_3","type":"trojan","server":"2hkmax02.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2hkmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_4","type":"trojan","server":"2sg00029f670552-ac3e-f665-2405-766a52bbcde6.233235.xyz","port":706,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg00029f670552-ac3e-f665-2405-766a52bbcde6.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_5","type":"trojan","server":"2sg03.170809.xyz","port":708,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg03.170809.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_6","type":"trojan","server":"1sg04.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"1sg04.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_7","type":"trojan","server":"1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_8","type":"trojan","server":"2sg000001.156786.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg000001.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_9","type":"trojan","server":"1sgmax02.156786.xyz","port":705,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"1sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_10","type":"trojan","server":"sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz","port":708,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_11","type":"trojan","server":"2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz","port":708,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_12","type":"trojan","server":"4sgmax02.156786.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"4sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_13","type":"trojan","server":"2sg001.170809.xyz","port":706,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg001.170809.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_14","type":"trojan","server":"2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_15","type":"trojan","server":"2hkmax07.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2hkmax07.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_16","type":"trojan","server":"2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_17","type":"trojan","server":"hkmax003.233235.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"hkmax003.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_18","type":"trojan","server":"2hkmax01.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2hkmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_19","type":"trojan","server":"sg0003.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"sg0003.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_20","type":"trojan","server":"sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz","port":708,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_21","type":"trojan","server":"2sg1109303e88-c58a-94b1-d177-f0dee4367ea5.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg1109303e88-c58a-94b1-d177-f0dee4367ea5.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_新加坡_22","type":"trojan","server":"sgmax05010741bf-7346-2997-25c4-9ca3628115ab.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"sgmax05010741bf-7346-2997-25c4-9ca3628115ab.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_23","type":"trojan","server":"2sg13cb2b6b4d-9b32-01a8-7574-376a171bb832.170203.xyz","port":626,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2sg13cb2b6b4d-9b32-01a8-7574-376a171bb832.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_韩国_24","type":"trojan","server":"0kr02.156786.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"0kr02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_印度_25","type":"trojan","server":"in01.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"in01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_26","type":"trojan","server":"uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_27","type":"trojan","server":"sg1111.156786.xyz","port":703,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"sg1111.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_俄罗斯_28","type":"ss","server":"46.17.43.226","port":1956,"password":"a1029556716953a9","cipher":"aes-256-gcm"}
-  - {"name":"YouTube面具人哈乐_中国_29","type":"trojan","server":"tw2.233235.xyz","port":777,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"tw2.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_30","type":"trojan","server":"tw4.233235.xyz","port":670,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"tw4.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_31","type":"trojan","server":"2us01.233235.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2us01.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_美国_32","type":"trojan","server":"2usmax01.170203.xyz","port":707,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"2usmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_33","type":"trojan","server":"tw3.233235.xyz","port":11125,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"tw3.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_34","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_35","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_36","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_37","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_38","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_39","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_40","type":"trojan","server":"tw60.233235.xyz","port":15476,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_41","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_42","type":"trojan","server":"tw7.170203.xyz","port":63535,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_43","type":"trojan","server":"tw5.170203.xyz","port":35066,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_中国_44","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_45","type":"trojan","server":"tw3.233235.xyz","port":24853,"udp":true,"password":"518a6ff8-7233-4f28-8a40-d3fa82a5875d","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"YouTube面具人哈乐_俄罗斯_46","type":"ss","server":"46.29.238.83","port":44908,"password":"DkK3bmkKh2rdK9k6EXSOQv","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"YouTube面具人哈乐_中国_47","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"中国_YouTube面具人哈乐_1","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"英国_YouTube面具人哈乐_2","type":"ss","server":"209.97.142.145","port":7330,"password":"iVqrWLfAlChUGf8HC9DwwQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"中国_YouTube面具人哈乐_3","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"俄罗斯_YouTube面具人哈乐_4","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"{\"host\":\"www.apple.com\"}"}}}
+  - {"name":"中国_YouTube面具人哈乐_5","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_YouTube面具人哈乐_6","type":"vmess","server":"104.18.15.148","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"jp3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_7","type":"vmess","server":"162.159.134.13","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"uk3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_8","type":"vmess","server":"162.159.134.12","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"uk3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_9","type":"vmess","server":"104.18.15.150","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"er3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_10","type":"vmess","server":"104.19.173.68","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"uk3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_11","type":"vmess","server":"104.19.173.68","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"er3.889611.com\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_12","type":"vmess","server":"104.18.15.149","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"er3.visaapp.top\"}"}}}
+  - {"name":"美国_YouTube面具人哈乐_13","type":"vmess","server":"104.18.15.148","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"er3.889611.com\"}"}}}
+  - {"name":"中国_YouTube面具人哈乐_14","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_YouTube面具人哈乐_15","type":"vmess","server":"104.18.15.147","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"jp3.889611.com\"}"}}}
+  - {"name":"中国_YouTube面具人哈乐_16","type":"ss","server":"jp2.mhw7e2.online","port":20014,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_YouTube面具人哈乐_17","type":"vmess","server":"104.19.173.61","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"{\"host\":\"hk3.889611.com\"}"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -469,53 +259,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube面具人哈乐_日本_1
-      - YouTube面具人哈乐_比利时_2
-      - YouTube面具人哈乐_美国_3
-      - YouTube面具人哈乐_新加坡_4
-      - YouTube面具人哈乐_新加坡_5
-      - YouTube面具人哈乐_新加坡_6
-      - YouTube面具人哈乐_新加坡_7
-      - YouTube面具人哈乐_新加坡_8
-      - YouTube面具人哈乐_美国_9
-      - YouTube面具人哈乐_新加坡_10
-      - YouTube面具人哈乐_新加坡_11
-      - YouTube面具人哈乐_新加坡_12
-      - YouTube面具人哈乐_美国_13
-      - YouTube面具人哈乐_新加坡_14
-      - YouTube面具人哈乐_新加坡_15
-      - YouTube面具人哈乐_美国_16
-      - YouTube面具人哈乐_美国_17
-      - YouTube面具人哈乐_美国_18
-      - YouTube面具人哈乐_新加坡_19
-      - YouTube面具人哈乐_美国_20
-      - YouTube面具人哈乐_美国_21
-      - YouTube面具人哈乐_新加坡_22
-      - YouTube面具人哈乐_美国_23
-      - YouTube面具人哈乐_韩国_24
-      - YouTube面具人哈乐_印度_25
-      - YouTube面具人哈乐_美国_26
-      - YouTube面具人哈乐_中国_27
-      - YouTube面具人哈乐_俄罗斯_28
-      - YouTube面具人哈乐_中国_29
-      - YouTube面具人哈乐_中国_30
-      - YouTube面具人哈乐_美国_31
-      - YouTube面具人哈乐_美国_32
-      - YouTube面具人哈乐_中国_33
-      - YouTube面具人哈乐_中国_34
-      - YouTube面具人哈乐_中国_35
-      - YouTube面具人哈乐_中国_36
-      - YouTube面具人哈乐_中国_37
-      - YouTube面具人哈乐_中国_38
-      - YouTube面具人哈乐_中国_39
-      - YouTube面具人哈乐_中国_40
-      - YouTube面具人哈乐_中国_41
-      - YouTube面具人哈乐_中国_42
-      - YouTube面具人哈乐_中国_43
-      - YouTube面具人哈乐_中国_44
-      - YouTube面具人哈乐_中国_45
-      - YouTube面具人哈乐_俄罗斯_46
-      - YouTube面具人哈乐_中国_47
+      - 中国_YouTube面具人哈乐_1
+      - 英国_YouTube面具人哈乐_2
+      - 中国_YouTube面具人哈乐_3
+      - 俄罗斯_YouTube面具人哈乐_4
+      - 中国_YouTube面具人哈乐_5
+      - 美国_YouTube面具人哈乐_6
+      - 美国_YouTube面具人哈乐_7
+      - 美国_YouTube面具人哈乐_8
+      - 美国_YouTube面具人哈乐_9
+      - 美国_YouTube面具人哈乐_10
+      - 美国_YouTube面具人哈乐_11
+      - 美国_YouTube面具人哈乐_12
+      - 美国_YouTube面具人哈乐_13
+      - 中国_YouTube面具人哈乐_14
+      - 美国_YouTube面具人哈乐_15
+      - 中国_YouTube面具人哈乐_16
+      - 美国_YouTube面具人哈乐_17
 
 rules:
 # 本地/局域网地址
