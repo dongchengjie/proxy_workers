@@ -46,727 +46,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 美国_5
-    port: 443
-    server: 141.147.70.245
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_7
-    port: 443
-    server: 152.70.186.19
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_8
-    port: 443
-    server: 143.47.245.162
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_9
-    port: 443
-    server: 150.230.123.238
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_10
-    port: 443
-    server: 141.147.61.90
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_11
-    port: 443
-    server: 150.230.7.216
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_12
-    port: 443
-    server: 165.1.123.204
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_13
-    port: 443
-    server: 144.22.252.124
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_14
-    port: 443
-    server: 138.2.135.224
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_15
-    port: 443
-    server: 152.70.71.23
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_16
-    port: 443
-    server: 140.83.86.166
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_17
-    port: 443
-    server: 150.230.63.93
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_18
-    port: 443
-    server: 34.105.189.25
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_19
-    port: 443
-    server: 34.22.142.117
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_21
-    port: 443
-    server: 34.147.130.63
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_22
-    port: 443
-    server: 141.147.100.185
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_24
-    port: 443
-    server: 34.175.202.195
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_26
-    port: 443
-    server: 158.178.158.13
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_27
-    port: 443
-    server: 34.147.231.33
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_28
-    port: 443
-    server: 130.162.252.17
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_32
-    port: 443
-    server: 141.147.114.14
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_35
-    port: 443
-    server: 130.162.51.4
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_40
-    port: 443
-    server: 158.178.152.40
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_41
-    port: 443
-    server: 152.70.112.158
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_43
-    port: 443
-    server: 34.91.136.173
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_44
-    port: 443
-    server: 141.147.5.36
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_47
-    port: 443
-    server: 141.147.100.202
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_48
-    port: 443
-    server: 141.147.98.82
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_49
-    port: 443
-    server: 158.180.43.153
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_50
-    port: 443
-    server: 129.159.22.4
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_51
-    port: 443
-    server: 152.70.69.199
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_54
-    port: 443
-    server: 144.24.173.182
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_63
-    port: 443
-    server: 141.147.51.56
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_65
-    port: 443
-    server: 141.148.242.189
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_66
-    port: 443
-    server: 158.101.214.112
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_73
-    port: 443
-    server: 141.147.111.134
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_74
-    port: 443
-    server: 143.47.235.184
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_76
-    port: 443
-    server: 129.151.204.91
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_84
-    port: 443
-    server: 146.235.197.123
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_89
-    port: 443
-    server: 129.146.168.102
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_103
-    port: 443
-    server: 132.226.205.160
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_117
-    port: 443
-    server: 84.235.175.252
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_132
-    port: 443
-    server: 144.24.200.164
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_136
-    port: 443
-    server: 158.179.206.143
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_148
-    port: 443
-    server: 34.69.150.180
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_159
-    port: 443
-    server: 132.226.31.178
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_167
-    port: 443
-    server: 213.170.157.1
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_194
-    port: 443
-    server: 192.18.159.129
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_201
-    port: 443
-    server: tn.ylks.xyz
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_202
-    port: 443
-    server: 34.123.83.237
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_203
-    port: 443
-    server: 129.159.47.255
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_223
-    port: 443
-    server: 213.35.105.46
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_246
-    port: 443
-    server: 158.180.49.179
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_247
-    port: 443
-    server: 207.127.94.174
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_261
-    port: 443
-    server: 204.110.220.254
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_309
-    port: 443
-    server: 129.146.134.77
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_318
-    port: 443
-    server: 204.110.220.12
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_322
-    port: 443
-    server: 152.70.57.182
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_328
-    port: 443
-    server: 204.110.220.3
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_340
-    port: 443
-    server: 150.230.196.248
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_341
+  - name: 美国_2
     port: 443
     server: 132.226.1.227
     type: trojan
@@ -777,10 +57,10 @@ proxies:
     ws-opts:
       path: /
       headers:
-        host: tn.ylks.xyz
-  - name: 美国_351
+        host: to.ylks.xyz
+  - name: 美国_3
     port: 443
-    server: 129.146.47.72
+    server: 150.230.196.248
     type: trojan
     network: ws
     udp: true
@@ -789,56 +69,8 @@ proxies:
     ws-opts:
       path: /
       headers:
-        host: tn.ylks.xyz
-  - name: 美国_355
-    port: 443
-    server: 129.153.126.67
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_368
-    port: 443
-    server: 134.65.59.100
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_370
-    port: 443
-    server: 141.147.161.250
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_371
-    port: 443
-    server: 158.178.192.221
-    type: trojan
-    network: ws
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: false
-    ws-opts:
-      path: /
-      headers:
-        host: tn.ylks.xyz
-  - name: 美国_373
+        host: to.ylks.xyz
+  - name: 美国_4
     port: 443
     server: 140.238.40.67
     type: trojan
@@ -849,8 +81,236 @@ proxies:
     ws-opts:
       path: /
       headers:
-        host: tn.ylks.xyz
-  - name: 美国_374
+        host: to.ylks.xyz
+  - name: 美国_5
+    port: 443
+    server: 129.151.204.91
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_6
+    port: 443
+    server: 158.178.192.221
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_8
+    port: 443
+    server: 141.147.161.250
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_31
+    port: 443
+    server: 204.110.220.12
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_36
+    port: 443
+    server: 134.65.59.100
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_50
+    port: 443
+    server: 158.179.206.143
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_88
+    port: 443
+    server: 152.70.57.182
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_93
+    port: 443
+    server: 213.170.157.1
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_125
+    port: 443
+    server: 152.70.112.158
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_133
+    port: 443
+    server: 207.127.94.174
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_179
+    port: 443
+    server: to.ylks.xyz
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_197
+    port: 443
+    server: 129.146.168.102
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_220
+    port: 443
+    server: 129.153.126.67
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_225
+    port: 443
+    server: 34.123.83.237
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_229
+    port: 443
+    server: 213.35.105.46
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_234
+    port: 443
+    server: 204.110.220.3
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_246
+    port: 443
+    server: 34.69.150.180
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_249
+    port: 443
+    server: 34.123.83.237
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_250
+    port: 443
+    server: 129.146.47.72
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_259
     port: 443
     server: 146.235.17.31
     type: trojan
@@ -861,10 +321,10 @@ proxies:
     ws-opts:
       path: /
       headers:
-        host: tn.ylks.xyz
-  - name: 美国_376
+        host: to.ylks.xyz
+  - name: 美国_265
     port: 443
-    server: 158.180.231.216
+    server: 192.18.159.129
     type: trojan
     network: ws
     udp: true
@@ -873,454 +333,472 @@ proxies:
     ws-opts:
       path: /
       headers:
-        host: tn.ylks.xyz
+        host: to.ylks.xyz
+  - name: 美国_270
+    port: 443
+    server: 152.70.69.199
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_300
+    port: 443
+    server: 129.159.22.4
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_317
+    port: 443
+    server: 129.159.47.255
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_319
+    port: 443
+    server: 146.235.197.123
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_321
+    port: 443
+    server: 34.147.130.63
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_322
+    port: 443
+    server: 34.147.231.33
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_323
+    port: 443
+    server: 34.175.202.195
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_324
+    port: 443
+    server: 34.91.136.173
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_325
+    port: 443
+    server: 34.105.189.25
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_326
+    port: 443
+    server: 34.22.142.117
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_328
+    port: 443
+    server: 152.70.71.23
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_329
+    port: 443
+    server: 144.22.252.124
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_330
+    port: 443
+    server: 144.22.252.124
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_331
+    port: 443
+    server: 165.1.123.204
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_333
+    port: 443
+    server: 144.24.200.164
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
+  - name: 美国_342
+    port: 443
+    server: 152.70.71.23
+    type: trojan
+    network: ws
+    udp: true
+    password: NISHIKUITAN222
+    skip-cert-verify: false
+    ws-opts:
+      path: /
+      headers:
+        host: to.ylks.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1343,75 +821,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国_2
+      - 美国_3
+      - 美国_4
       - 美国_5
-      - 美国_7
+      - 美国_6
       - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 美国_17
-      - 美国_18
-      - 美国_19
-      - 美国_21
-      - 美国_22
-      - 美国_24
-      - 美国_26
-      - 美国_27
-      - 美国_28
-      - 美国_32
-      - 美国_35
-      - 美国_40
-      - 美国_41
-      - 美国_43
-      - 美国_44
-      - 美国_47
-      - 美国_48
-      - 美国_49
+      - 美国_31
+      - 美国_36
       - 美国_50
-      - 美国_51
-      - 美国_54
-      - 美国_63
-      - 美国_65
-      - 美国_66
-      - 美国_73
-      - 美国_74
-      - 美国_76
-      - 美国_84
-      - 美国_89
-      - 美国_103
-      - 美国_117
-      - 美国_132
-      - 美国_136
-      - 美国_148
-      - 美国_159
-      - 美国_167
-      - 美国_194
-      - 美国_201
-      - 美国_202
-      - 美国_203
-      - 美国_223
+      - 美国_88
+      - 美国_93
+      - 美国_125
+      - 美国_133
+      - 美国_179
+      - 美国_197
+      - 美国_220
+      - 美国_225
+      - 美国_229
+      - 美国_234
       - 美国_246
-      - 美国_247
-      - 美国_261
-      - 美国_309
-      - 美国_318
+      - 美国_249
+      - 美国_250
+      - 美国_259
+      - 美国_265
+      - 美国_270
+      - 美国_300
+      - 美国_317
+      - 美国_319
+      - 美国_321
       - 美国_322
+      - 美国_323
+      - 美国_324
+      - 美国_325
+      - 美国_326
       - 美国_328
-      - 美国_340
-      - 美国_341
-      - 美国_351
-      - 美国_355
-      - 美国_368
-      - 美国_370
-      - 美国_371
-      - 美国_373
-      - 美国_374
-      - 美国_376
+      - 美国_329
+      - 美国_330
+      - 美国_331
+      - 美国_333
+      - 美国_342
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
