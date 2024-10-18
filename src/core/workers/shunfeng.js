@@ -19,8 +19,8 @@ export default {
       let videoInfo = await axios.get(videoLink).then(response => response.data);
 
       // 获取博客链接
-      videoInfo = videoInfo.substr(videoInfo.indexOf('本期免费节点获取：') + 9);
-      const blogLink = videoInfo.substring(0, videoInfo.indexOf('",'));
+      videoInfo = videoInfo.substr(videoInfo.indexOf('\\u0026q=') + 8);
+      const blogLink = videoInfo.substring(0, videoInfo.indexOf('\\u0026'));
       if (!blogLink.startsWith('http')) {
         throw new Error('获取博客链接失败');
       }
